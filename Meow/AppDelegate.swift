@@ -26,11 +26,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         #if INT
             MSDistribute.setInstallUrl(Constants.intInstallUrl)
             MSDistribute.setApiUrl(Constants.intApiUrl)
+            MSMobileCenter.setLogUrl("https://in-integration.dev.avalanch.es")
             appSecret = Constants.intAppSecret
         #endif
         #if STAGING
             MSDistribute.setInstallUrl(Constants.stagingInstallUrl)
             MSDistribute.setApiUrl(Constants.stagingApiUrl)
+            MSMobileCenter.setLogUrl("https://in-staging-south-centralus.staging.avalanch.es")
             appSecret = Constants.stagingAppSecret
         #endif
         #if PROD
