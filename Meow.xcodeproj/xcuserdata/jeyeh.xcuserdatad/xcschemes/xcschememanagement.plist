@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>Meow-INT-CRYSTAL.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>6</integer>
+		</dict>
 		<key>Meow-INT.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
@@ -38,6 +43,11 @@
 			<true/>
 		</dict>
 		<key>9B904F961EDFEAEC00E01EC0</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>9BEBFD821EF1B3F600445383</key>
 		<dict>
 			<key>primary</key>
 			<true/>

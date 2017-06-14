@@ -12,6 +12,7 @@ class Constants {
     static let intInstallUrl = "https://install.asgard-int.trafficmanager.net"
     static let intApiUrl = "https://asgard-int.trafficmanager.net/api/v0.1"
     static let intAppSecret = "b22f463d-a561-405e-8579-161977402dd0"
+    static let crystalIntAppSecret = "5f46a336-bd46-4a2d-b14c-6a82b35dba16"
     
     static let stagingInstallUrl = "https://install.asgard-staging.trafficmanager.net"
     static let stagingApiUrl = "https://asgard-staging.trafficmanager.net/api/v0.1"

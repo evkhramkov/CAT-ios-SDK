@@ -28,6 +28,13 @@
 		9B904F9F1EDFEAEC00E01EC0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B0B2B1C1EAFEA1700422290 /* LaunchScreen.storyboard */; };
 		9B904FA01EDFEAEC00E01EC0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B0B2B1A1EAFEA1700422290 /* Assets.xcassets */; };
 		9B904FA11EDFEAEC00E01EC0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B0B2B171EAFEA1700422290 /* Main.storyboard */; };
+		9BEBFD851EF1B3F600445383 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0B2B151EAFEA1700422290 /* ViewController.swift */; };
+		9BEBFD861EF1B3F600445383 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0B2B131EAFEA1700422290 /* AppDelegate.swift */; };
+		9BEBFD871EF1B3F600445383 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B904F6D1EDFCFBF00E01EC0 /* Constants.swift */; };
+		9BEBFD891EF1B3F600445383 /* Pods_Meow.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 968BD0E924ADF84C1DFA8B0A /* Pods_Meow.framework */; };
+		9BEBFD8B1EF1B3F600445383 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B0B2B1C1EAFEA1700422290 /* LaunchScreen.storyboard */; };
+		9BEBFD8C1EF1B3F600445383 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B0B2B1A1EAFEA1700422290 /* Assets.xcassets */; };
+		9BEBFD8D1EF1B3F600445383 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B0B2B171EAFEA1700422290 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +52,7 @@
 		9B904F811EDFE9A600E01EC0 /* Meow-INT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Meow-INT.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B904F941EDFEA6F00E01EC0 /* Meow-STAGING.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Meow-STAGING.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B904FA71EDFEAEC00E01EC0 /* Meow-PROD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Meow-PROD.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BEBFD931EF1B3F600445383 /* Meow-INT-CRYSTAL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Meow-INT-CRYSTAL.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +80,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		9BEBFD881EF1B3F600445383 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BEBFD891EF1B3F600445383 /* Pods_Meow.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -91,6 +107,7 @@
 				9B904F811EDFE9A600E01EC0 /* Meow-INT.app */,
 				9B904F941EDFEA6F00E01EC0 /* Meow-STAGING.app */,
 				9B904FA71EDFEAEC00E01EC0 /* Meow-PROD.app */,
+				9BEBFD931EF1B3F600445383 /* Meow-INT-CRYSTAL.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -190,6 +207,26 @@
 			productReference = 9B904FA71EDFEAEC00E01EC0 /* Meow-PROD.app */;
 			productType = "com.apple.product-type.application";
 		};
+		9BEBFD821EF1B3F600445383 /* Meow-INT-CRYSTAL */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BEBFD901EF1B3F600445383 /* Build configuration list for PBXNativeTarget "Meow-INT-CRYSTAL" */;
+			buildPhases = (
+				9BEBFD831EF1B3F600445383 /* [CP] Check Pods Manifest.lock */,
+				9BEBFD841EF1B3F600445383 /* Sources */,
+				9BEBFD881EF1B3F600445383 /* Frameworks */,
+				9BEBFD8A1EF1B3F600445383 /* Resources */,
+				9BEBFD8E1EF1B3F600445383 /* [CP] Embed Pods Frameworks */,
+				9BEBFD8F1EF1B3F600445383 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Meow-INT-CRYSTAL";
+			productName = Meow;
+			productReference = 9BEBFD931EF1B3F600445383 /* Meow-INT-CRYSTAL.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -207,6 +244,9 @@
 						DevelopmentTeam = 5Z97G9NZQ6;
 					};
 					9B904F961EDFEAEC00E01EC0 = {
+						DevelopmentTeam = 5Z97G9NZQ6;
+					};
+					9BEBFD821EF1B3F600445383 = {
 						DevelopmentTeam = 5Z97G9NZQ6;
 					};
 				};
@@ -227,6 +267,7 @@
 				9B904F701EDFE9A600E01EC0 /* Meow-INT */,
 				9B904F831EDFEA6F00E01EC0 /* Meow-STAGING */,
 				9B904F961EDFEAEC00E01EC0 /* Meow-PROD */,
+				9BEBFD821EF1B3F600445383 /* Meow-INT-CRYSTAL */,
 			);
 		};
 /* End PBXProject section */
@@ -259,6 +300,16 @@
 				9B904F9F1EDFEAEC00E01EC0 /* LaunchScreen.storyboard in Resources */,
 				9B904FA01EDFEAEC00E01EC0 /* Assets.xcassets in Resources */,
 				9B904FA11EDFEAEC00E01EC0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BEBFD8A1EF1B3F600445383 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BEBFD8B1EF1B3F600445383 /* LaunchScreen.storyboard in Resources */,
+				9BEBFD8C1EF1B3F600445383 /* Assets.xcassets in Resources */,
+				9BEBFD8D1EF1B3F600445383 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -400,6 +451,51 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Meow/Pods-Meow-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		9BEBFD831EF1B3F600445383 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9BEBFD8E1EF1B3F600445383 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Meow/Pods-Meow-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9BEBFD8F1EF1B3F600445383 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Meow/Pods-Meow-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -430,6 +526,16 @@
 				9B904F991EDFEAEC00E01EC0 /* ViewController.swift in Sources */,
 				9B904F9A1EDFEAEC00E01EC0 /* AppDelegate.swift in Sources */,
 				9B904F9B1EDFEAEC00E01EC0 /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BEBFD841EF1B3F600445383 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BEBFD851EF1B3F600445383 /* ViewController.swift in Sources */,
+				9BEBFD861EF1B3F600445383 /* AppDelegate.swift in Sources */,
+				9BEBFD871EF1B3F600445383 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -668,6 +774,46 @@
 			};
 			name = Release;
 		};
+		9BEBFD911EF1B3F600445383 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48669F14A82C7170BFC4DEC6 /* Pods-Meow.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				DEVELOPMENT_TEAM = 5Z97G9NZQ6;
+				INFOPLIST_FILE = Meow/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_SWIFT_FLAGS = "-D CRYSTALINT";
+				PRODUCT_BUNDLE_IDENTIFIER = "meow.int-crystal";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "5fbc5877-aba6-4f90-8acc-a0fddb724e07";
+				PROVISIONING_PROFILE_SPECIFIER = "iOS Wildcard In-House";
+				SWIFT_OBJC_BRIDGING_HEADER = "Meow/Meow-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		9BEBFD921EF1B3F600445383 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F8EDE1C8D161DAE22F7DEBA /* Pods-Meow.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				DEVELOPMENT_TEAM = 5Z97G9NZQ6;
+				INFOPLIST_FILE = Meow/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_SWIFT_FLAGS = "-D CRYSTALINT";
+				PRODUCT_BUNDLE_IDENTIFIER = "meow.int-crystal";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "5fbc5877-aba6-4f90-8acc-a0fddb724e07";
+				PROVISIONING_PROFILE_SPECIFIER = "iOS Wildcard In-House";
+				SWIFT_OBJC_BRIDGING_HEADER = "Meow/Meow-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -703,6 +849,15 @@
 			buildConfigurations = (
 				9B904FA51EDFEAEC00E01EC0 /* Debug */,
 				9B904FA61EDFEAEC00E01EC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9BEBFD901EF1B3F600445383 /* Build configuration list for PBXNativeTarget "Meow-INT-CRYSTAL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BEBFD911EF1B3F600445383 /* Debug */,
+				9BEBFD921EF1B3F600445383 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
