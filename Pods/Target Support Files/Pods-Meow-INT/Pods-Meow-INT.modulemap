@@ -1,0 +1,6 @@
+framework module Pods_Meow_INT {
+  umbrella header "Pods-Meow-INT-umbrella.h"
+
+  export *
+  module * { export * }
+}
