@@ -1,23 +1,12 @@
 PODS:
   - FlatUIKit (1.6.2)
-  - MobileCenter/MobileCenter (0.8.0)
-  - MobileCenter/MobileCenterAnalytics (0.8.0):
-    - MobileCenter/MobileCenter
-  - MobileCenter/MobileCenterCrashes (0.8.0):
-    - MobileCenter/MobileCenter
-  - MobileCenter/MobileCenterDistribute (0.8.0):
-    - MobileCenter/MobileCenter
 
 DEPENDENCIES:
   - FlatUIKit
-  - MobileCenter/MobileCenterAnalytics
-  - MobileCenter/MobileCenterCrashes
-  - MobileCenter/MobileCenterDistribute
 
 SPEC CHECKSUMS:
   FlatUIKit: 1b41f0d4952ce8d970d8479ce79df54a960242c4
-  MobileCenter: b61ad8338b34ad7a61a55dd5f6b1285d74c1ccf8
 
-PODFILE CHECKSUM: '028772b2eeafffea785dde2289d95663520ebdb0'
+PODFILE CHECKSUM: acb95939ddd14bc076666a29883ca972b8cfbc44
 
-COCOAPODS: 1.1.1
+COCOAPODS: 1.2.1
