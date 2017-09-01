@@ -4,25 +4,25 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Meow-INT-CRYSTAL.xcscheme_^#shared#^_</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>6</integer>
-		</dict>
-		<key>Meow-INT.xcscheme_^#shared#^_</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>3</integer>
-		</dict>
-		<key>Meow-PROD.xcscheme_^#shared#^_</key>
+		<key>Meow-INT-ACCESSIBILITY.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>5</integer>
 		</dict>
+		<key>Meow-INT.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+		<key>Meow-PROD.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
 		<key>Meow-STAGING.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>4</integer>
+			<integer>1</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
@@ -48,6 +48,11 @@
 			<true/>
 		</dict>
 		<key>9BEBFD821EF1B3F600445383</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>9BF8FAF01F59D074006D9A7C</key>
 		<dict>
 			<key>primary</key>
 			<true/>

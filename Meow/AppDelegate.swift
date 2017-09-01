@@ -29,11 +29,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             MSMobileCenter.setLogUrl("https://in-integration.dev.avalanch.es")
             appSecret = Constants.intAppSecret
         #endif
-        #if CRYSTALINT
+        #if ACCESSIBILITYINT
             MSDistribute.setInstallUrl(Constants.intInstallUrl)
             MSDistribute.setApiUrl(Constants.intApiUrl)
             MSMobileCenter.setLogUrl("https://in-integration.dev.avalanch.es")
-            appSecret = Constants.crystalIntAppSecret
+            appSecret = Constants.accessibilityIntAppSecret
         #endif
         #if STAGING
             MSDistribute.setInstallUrl(Constants.stagingInstallUrl)
