@@ -6,7 +6,8 @@ target 'Meow-INT' do
   use_frameworks!
 
   # Pods for Meow
-#  pod 'MobileCenter/MobileCenterDistribute'
+  pod 'MobileCenter'
+  pod 'MobileCenter/Distribute'
 #  pod 'MobileCenter/MobileCenterCrashes'
 #  pod 'MobileCenter/MobileCenterAnalytics'
   pod 'FlatUIKit'

@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "606404A2C5AD4391DCB930A309C1456F"
+               BlueprintIdentifier = "C7E9E9C595ED5BA16C7F62727275D38B"
                BuildableName = "Pods_Meow_INT.framework"
                BlueprintName = "Pods-Meow-INT"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -26,6 +26,7 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      language = ""
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
       </Testables>
@@ -36,6 +37,7 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      language = ""
       launchStyle = "0"
       useCustomWorkingDirectory = "NO"
       ignoresPersistentStateOnLaunch = "NO"
@@ -45,7 +47,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "606404A2C5AD4391DCB930A309C1456F"
+            BlueprintIdentifier = "C7E9E9C595ED5BA16C7F62727275D38B"
             BuildableName = "Pods_Meow_INT.framework"
             BlueprintName = "Pods-Meow-INT"
             ReferencedContainer = "container:Pods.xcodeproj">
