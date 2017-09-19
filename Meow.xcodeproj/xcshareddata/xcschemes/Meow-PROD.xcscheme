@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "9B904F961EDFEAEC00E01EC0"
+               BlueprintIdentifier = "9B35709D1F71DDAE00049FCA"
                BuildableName = "Meow-PROD.app"
                BlueprintName = "Meow-PROD"
                ReferencedContainer = "container:Meow.xcodeproj">
@@ -32,7 +32,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "9B904F961EDFEAEC00E01EC0"
+            BlueprintIdentifier = "9B35709D1F71DDAE00049FCA"
             BuildableName = "Meow-PROD.app"
             BlueprintName = "Meow-PROD"
             ReferencedContainer = "container:Meow.xcodeproj">
@@ -55,7 +55,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "9B904F961EDFEAEC00E01EC0"
+            BlueprintIdentifier = "9B35709D1F71DDAE00049FCA"
             BuildableName = "Meow-PROD.app"
             BlueprintName = "Meow-PROD"
             ReferencedContainer = "container:Meow.xcodeproj">
@@ -74,7 +74,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "9B904F961EDFEAEC00E01EC0"
+            BlueprintIdentifier = "9B35709D1F71DDAE00049FCA"
             BuildableName = "Meow-PROD.app"
             BlueprintName = "Meow-PROD"
             ReferencedContainer = "container:Meow.xcodeproj">

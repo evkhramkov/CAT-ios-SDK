@@ -7,24 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9B35708C1F71DD6B00049FCA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0B2B151EAFEA1700422290 /* ViewController.swift */; };
+		9B35708D1F71DD6B00049FCA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0B2B131EAFEA1700422290 /* AppDelegate.swift */; };
+		9B35708E1F71DD6B00049FCA /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B904F6D1EDFCFBF00E01EC0 /* Constants.swift */; };
+		9B3570901F71DD6B00049FCA /* Pods_Meow_INT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C42F9BC051656128F33F3A0 /* Pods_Meow_INT.framework */; };
+		9B3570911F71DD6B00049FCA /* Pods_Meow_INT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C42F9BC051656128F33F3A0 /* Pods_Meow_INT.framework */; };
+		9B3570931F71DD6B00049FCA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B0B2B1C1EAFEA1700422290 /* LaunchScreen.storyboard */; };
+		9B3570941F71DD6B00049FCA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B0B2B1A1EAFEA1700422290 /* Assets.xcassets */; };
+		9B3570951F71DD6B00049FCA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B0B2B171EAFEA1700422290 /* Main.storyboard */; };
+		9B3570A01F71DDAE00049FCA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0B2B151EAFEA1700422290 /* ViewController.swift */; };
+		9B3570A11F71DDAE00049FCA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0B2B131EAFEA1700422290 /* AppDelegate.swift */; };
+		9B3570A21F71DDAE00049FCA /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B904F6D1EDFCFBF00E01EC0 /* Constants.swift */; };
+		9B3570A41F71DDAE00049FCA /* Pods_Meow_INT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C42F9BC051656128F33F3A0 /* Pods_Meow_INT.framework */; };
+		9B3570A51F71DDAE00049FCA /* Pods_Meow_INT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C42F9BC051656128F33F3A0 /* Pods_Meow_INT.framework */; };
+		9B3570A71F71DDAE00049FCA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B0B2B1C1EAFEA1700422290 /* LaunchScreen.storyboard */; };
+		9B3570A81F71DDAE00049FCA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B0B2B1A1EAFEA1700422290 /* Assets.xcassets */; };
+		9B3570A91F71DDAE00049FCA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B0B2B171EAFEA1700422290 /* Main.storyboard */; };
 		9B904F731EDFE9A600E01EC0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0B2B151EAFEA1700422290 /* ViewController.swift */; };
 		9B904F741EDFE9A600E01EC0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0B2B131EAFEA1700422290 /* AppDelegate.swift */; };
 		9B904F751EDFE9A600E01EC0 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B904F6D1EDFCFBF00E01EC0 /* Constants.swift */; };
 		9B904F791EDFE9A600E01EC0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B0B2B1C1EAFEA1700422290 /* LaunchScreen.storyboard */; };
 		9B904F7A1EDFE9A600E01EC0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B0B2B1A1EAFEA1700422290 /* Assets.xcassets */; };
 		9B904F7B1EDFE9A600E01EC0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B0B2B171EAFEA1700422290 /* Main.storyboard */; };
-		9B904F861EDFEA6F00E01EC0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0B2B151EAFEA1700422290 /* ViewController.swift */; };
-		9B904F871EDFEA6F00E01EC0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0B2B131EAFEA1700422290 /* AppDelegate.swift */; };
-		9B904F881EDFEA6F00E01EC0 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B904F6D1EDFCFBF00E01EC0 /* Constants.swift */; };
-		9B904F8C1EDFEA6F00E01EC0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B0B2B1C1EAFEA1700422290 /* LaunchScreen.storyboard */; };
-		9B904F8D1EDFEA6F00E01EC0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B0B2B1A1EAFEA1700422290 /* Assets.xcassets */; };
-		9B904F8E1EDFEA6F00E01EC0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B0B2B171EAFEA1700422290 /* Main.storyboard */; };
-		9B904F991EDFEAEC00E01EC0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0B2B151EAFEA1700422290 /* ViewController.swift */; };
-		9B904F9A1EDFEAEC00E01EC0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0B2B131EAFEA1700422290 /* AppDelegate.swift */; };
-		9B904F9B1EDFEAEC00E01EC0 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B904F6D1EDFCFBF00E01EC0 /* Constants.swift */; };
-		9B904F9F1EDFEAEC00E01EC0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B0B2B1C1EAFEA1700422290 /* LaunchScreen.storyboard */; };
-		9B904FA01EDFEAEC00E01EC0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B0B2B1A1EAFEA1700422290 /* Assets.xcassets */; };
-		9B904FA11EDFEAEC00E01EC0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B0B2B171EAFEA1700422290 /* Main.storyboard */; };
 		9BF8FAF31F59D074006D9A7C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0B2B151EAFEA1700422290 /* ViewController.swift */; };
 		9BF8FAF41F59D074006D9A7C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0B2B131EAFEA1700422290 /* AppDelegate.swift */; };
 		9BF8FAF51F59D074006D9A7C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B904F6D1EDFCFBF00E01EC0 /* Constants.swift */; };
@@ -46,35 +50,39 @@
 		9B0B2B1A1EAFEA1700422290 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9B0B2B1D1EAFEA1700422290 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9B0B2B1F1EAFEA1700422290 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B35709B1F71DD6B00049FCA /* Meow-STAGING.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Meow-STAGING.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B3570AF1F71DDAE00049FCA /* Meow-PROD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Meow-PROD.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B904F6D1EDFCFBF00E01EC0 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		9B904F6F1EDFDF9C00E01EC0 /* Meow-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Meow-Bridging-Header.h"; sourceTree = "<group>"; };
 		9B904F811EDFE9A600E01EC0 /* Meow-INT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Meow-INT.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9B904F941EDFEA6F00E01EC0 /* Meow-STAGING.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Meow-STAGING.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9B904FA71EDFEAEC00E01EC0 /* Meow-PROD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Meow-PROD.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BF8FB071F59D074006D9A7C /* Meow-INT-ACCESSIBILITY.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Meow-INT-ACCESSIBILITY.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		9B35708F1F71DD6B00049FCA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B3570901F71DD6B00049FCA /* Pods_Meow_INT.framework in Frameworks */,
+				9B3570911F71DD6B00049FCA /* Pods_Meow_INT.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B3570A31F71DDAE00049FCA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B3570A41F71DDAE00049FCA /* Pods_Meow_INT.framework in Frameworks */,
+				9B3570A51F71DDAE00049FCA /* Pods_Meow_INT.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9B904F761EDFE9A600E01EC0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				ED96397897A015F8CA4CBE56 /* Pods_Meow_INT.framework in Frameworks */,
 				B68CF2250F4B5B118E9F6A86 /* Pods_Meow_INT.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9B904F891EDFEA6F00E01EC0 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9B904F9C1EDFEAEC00E01EC0 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -102,9 +110,9 @@
 			isa = PBXGroup;
 			children = (
 				9B904F811EDFE9A600E01EC0 /* Meow-INT.app */,
-				9B904F941EDFEA6F00E01EC0 /* Meow-STAGING.app */,
-				9B904FA71EDFEAEC00E01EC0 /* Meow-PROD.app */,
 				9BF8FB071F59D074006D9A7C /* Meow-INT-ACCESSIBILITY.app */,
+				9B35709B1F71DD6B00049FCA /* Meow-STAGING.app */,
+				9B3570AF1F71DDAE00049FCA /* Meow-PROD.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -145,6 +153,46 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		9B3570891F71DD6B00049FCA /* Meow-STAGING */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B3570981F71DD6B00049FCA /* Build configuration list for PBXNativeTarget "Meow-STAGING" */;
+			buildPhases = (
+				9B35708A1F71DD6B00049FCA /* [CP] Check Pods Manifest.lock */,
+				9B35708B1F71DD6B00049FCA /* Sources */,
+				9B35708F1F71DD6B00049FCA /* Frameworks */,
+				9B3570921F71DD6B00049FCA /* Resources */,
+				9B3570961F71DD6B00049FCA /* [CP] Embed Pods Frameworks */,
+				9B3570971F71DD6B00049FCA /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Meow-STAGING";
+			productName = Meow;
+			productReference = 9B35709B1F71DD6B00049FCA /* Meow-STAGING.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9B35709D1F71DDAE00049FCA /* Meow-PROD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B3570AC1F71DDAE00049FCA /* Build configuration list for PBXNativeTarget "Meow-PROD" */;
+			buildPhases = (
+				9B35709E1F71DDAE00049FCA /* [CP] Check Pods Manifest.lock */,
+				9B35709F1F71DDAE00049FCA /* Sources */,
+				9B3570A31F71DDAE00049FCA /* Frameworks */,
+				9B3570A61F71DDAE00049FCA /* Resources */,
+				9B3570AA1F71DDAE00049FCA /* [CP] Embed Pods Frameworks */,
+				9B3570AB1F71DDAE00049FCA /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Meow-PROD";
+			productName = Meow;
+			productReference = 9B3570AF1F71DDAE00049FCA /* Meow-PROD.app */;
+			productType = "com.apple.product-type.application";
+		};
 		9B904F701EDFE9A600E01EC0 /* Meow-INT */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9B904F7E1EDFE9A600E01EC0 /* Build configuration list for PBXNativeTarget "Meow-INT" */;
@@ -163,40 +211,6 @@
 			name = "Meow-INT";
 			productName = Meow;
 			productReference = 9B904F811EDFE9A600E01EC0 /* Meow-INT.app */;
-			productType = "com.apple.product-type.application";
-		};
-		9B904F831EDFEA6F00E01EC0 /* Meow-STAGING */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 9B904F911EDFEA6F00E01EC0 /* Build configuration list for PBXNativeTarget "Meow-STAGING" */;
-			buildPhases = (
-				9B904F851EDFEA6F00E01EC0 /* Sources */,
-				9B904F891EDFEA6F00E01EC0 /* Frameworks */,
-				9B904F8B1EDFEA6F00E01EC0 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Meow-STAGING";
-			productName = Meow;
-			productReference = 9B904F941EDFEA6F00E01EC0 /* Meow-STAGING.app */;
-			productType = "com.apple.product-type.application";
-		};
-		9B904F961EDFEAEC00E01EC0 /* Meow-PROD */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 9B904FA41EDFEAEC00E01EC0 /* Build configuration list for PBXNativeTarget "Meow-PROD" */;
-			buildPhases = (
-				9B904F981EDFEAEC00E01EC0 /* Sources */,
-				9B904F9C1EDFEAEC00E01EC0 /* Frameworks */,
-				9B904F9E1EDFEAEC00E01EC0 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Meow-PROD";
-			productName = Meow;
-			productReference = 9B904FA71EDFEAEC00E01EC0 /* Meow-PROD.app */;
 			productType = "com.apple.product-type.application";
 		};
 		9BF8FAF01F59D074006D9A7C /* Meow-INT-ACCESSIBILITY */ = {
@@ -226,13 +240,13 @@
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = "Jessica Yeh";
 				TargetAttributes = {
+					9B3570891F71DD6B00049FCA = {
+						DevelopmentTeam = 5Z97G9NZQ6;
+					};
+					9B35709D1F71DDAE00049FCA = {
+						DevelopmentTeam = 5Z97G9NZQ6;
+					};
 					9B904F701EDFE9A600E01EC0 = {
-						DevelopmentTeam = 5Z97G9NZQ6;
-					};
-					9B904F831EDFEA6F00E01EC0 = {
-						DevelopmentTeam = 5Z97G9NZQ6;
-					};
-					9B904F961EDFEAEC00E01EC0 = {
 						DevelopmentTeam = 5Z97G9NZQ6;
 					};
 					9BF8FAF01F59D074006D9A7C = {
@@ -254,14 +268,34 @@
 			projectRoot = "";
 			targets = (
 				9B904F701EDFE9A600E01EC0 /* Meow-INT */,
-				9B904F831EDFEA6F00E01EC0 /* Meow-STAGING */,
-				9B904F961EDFEAEC00E01EC0 /* Meow-PROD */,
 				9BF8FAF01F59D074006D9A7C /* Meow-INT-ACCESSIBILITY */,
+				9B3570891F71DD6B00049FCA /* Meow-STAGING */,
+				9B35709D1F71DDAE00049FCA /* Meow-PROD */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		9B3570921F71DD6B00049FCA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B3570931F71DD6B00049FCA /* LaunchScreen.storyboard in Resources */,
+				9B3570941F71DD6B00049FCA /* Assets.xcassets in Resources */,
+				9B3570951F71DD6B00049FCA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B3570A61F71DDAE00049FCA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B3570A71F71DDAE00049FCA /* LaunchScreen.storyboard in Resources */,
+				9B3570A81F71DDAE00049FCA /* Assets.xcassets in Resources */,
+				9B3570A91F71DDAE00049FCA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9B904F781EDFE9A600E01EC0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -269,26 +303,6 @@
 				9B904F791EDFE9A600E01EC0 /* LaunchScreen.storyboard in Resources */,
 				9B904F7A1EDFE9A600E01EC0 /* Assets.xcassets in Resources */,
 				9B904F7B1EDFE9A600E01EC0 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9B904F8B1EDFEA6F00E01EC0 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9B904F8C1EDFEA6F00E01EC0 /* LaunchScreen.storyboard in Resources */,
-				9B904F8D1EDFEA6F00E01EC0 /* Assets.xcassets in Resources */,
-				9B904F8E1EDFEA6F00E01EC0 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9B904F9E1EDFEAEC00E01EC0 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9B904F9F1EDFEAEC00E01EC0 /* LaunchScreen.storyboard in Resources */,
-				9B904FA01EDFEAEC00E01EC0 /* Assets.xcassets in Resources */,
-				9B904FA11EDFEAEC00E01EC0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -305,6 +319,96 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		9B35708A1F71DD6B00049FCA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9B3570961F71DD6B00049FCA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Meow-INT/Pods-Meow-INT-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9B3570971F71DD6B00049FCA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Meow-INT/Pods-Meow-INT-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9B35709E1F71DDAE00049FCA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9B3570AA1F71DDAE00049FCA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Meow-INT/Pods-Meow-INT-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9B3570AB1F71DDAE00049FCA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Meow-INT/Pods-Meow-INT-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		9B904F711EDFE9A600E01EC0 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -353,6 +457,26 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		9B35708B1F71DD6B00049FCA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B35708C1F71DD6B00049FCA /* ViewController.swift in Sources */,
+				9B35708D1F71DD6B00049FCA /* AppDelegate.swift in Sources */,
+				9B35708E1F71DD6B00049FCA /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B35709F1F71DDAE00049FCA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B3570A01F71DDAE00049FCA /* ViewController.swift in Sources */,
+				9B3570A11F71DDAE00049FCA /* AppDelegate.swift in Sources */,
+				9B3570A21F71DDAE00049FCA /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9B904F721EDFE9A600E01EC0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -360,26 +484,6 @@
 				9B904F731EDFE9A600E01EC0 /* ViewController.swift in Sources */,
 				9B904F741EDFE9A600E01EC0 /* AppDelegate.swift in Sources */,
 				9B904F751EDFE9A600E01EC0 /* Constants.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9B904F851EDFEA6F00E01EC0 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9B904F861EDFEA6F00E01EC0 /* ViewController.swift in Sources */,
-				9B904F871EDFEA6F00E01EC0 /* AppDelegate.swift in Sources */,
-				9B904F881EDFEA6F00E01EC0 /* Constants.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9B904F981EDFEAEC00E01EC0 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9B904F991EDFEAEC00E01EC0 /* ViewController.swift in Sources */,
-				9B904F9A1EDFEAEC00E01EC0 /* AppDelegate.swift in Sources */,
-				9B904F9B1EDFEAEC00E01EC0 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -508,6 +612,102 @@
 			};
 			name = Release;
 		};
+		9B3570991F71DD6B00049FCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5FE9F1B8050FAE35D6080978 /* Pods-Meow-INT.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				DEVELOPMENT_TEAM = 5Z97G9NZQ6;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/iOS",
+				);
+				INFOPLIST_FILE = Meow/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_SWIFT_FLAGS = "-D STAGING";
+				PRODUCT_BUNDLE_IDENTIFIER = meow.int;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "5fbc5877-aba6-4f90-8acc-a0fddb724e07";
+				PROVISIONING_PROFILE_SPECIFIER = "iOS Wildcard In-House";
+				SWIFT_OBJC_BRIDGING_HEADER = "Meow/Meow-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		9B35709A1F71DD6B00049FCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 227AFA50CA80CF017E31E67B /* Pods-Meow-INT.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				DEVELOPMENT_TEAM = 5Z97G9NZQ6;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/iOS",
+				);
+				INFOPLIST_FILE = Meow/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_SWIFT_FLAGS = "-D STAGING";
+				PRODUCT_BUNDLE_IDENTIFIER = meow.int;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "5fbc5877-aba6-4f90-8acc-a0fddb724e07";
+				PROVISIONING_PROFILE_SPECIFIER = "iOS Wildcard In-House";
+				SWIFT_OBJC_BRIDGING_HEADER = "Meow/Meow-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		9B3570AD1F71DDAE00049FCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5FE9F1B8050FAE35D6080978 /* Pods-Meow-INT.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				DEVELOPMENT_TEAM = 5Z97G9NZQ6;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/iOS",
+				);
+				INFOPLIST_FILE = Meow/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_SWIFT_FLAGS = "-D PROD";
+				PRODUCT_BUNDLE_IDENTIFIER = meow.int;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "5fbc5877-aba6-4f90-8acc-a0fddb724e07";
+				PROVISIONING_PROFILE_SPECIFIER = "iOS Wildcard In-House";
+				SWIFT_OBJC_BRIDGING_HEADER = "Meow/Meow-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		9B3570AE1F71DDAE00049FCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 227AFA50CA80CF017E31E67B /* Pods-Meow-INT.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				DEVELOPMENT_TEAM = 5Z97G9NZQ6;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/iOS",
+				);
+				INFOPLIST_FILE = Meow/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_SWIFT_FLAGS = "-D PROD";
+				PRODUCT_BUNDLE_IDENTIFIER = meow.int;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "5fbc5877-aba6-4f90-8acc-a0fddb724e07";
+				PROVISIONING_PROFILE_SPECIFIER = "iOS Wildcard In-House";
+				SWIFT_OBJC_BRIDGING_HEADER = "Meow/Meow-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
 		9B904F7F1EDFE9A600E01EC0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5FE9F1B8050FAE35D6080978 /* Pods-Meow-INT.debug.xcconfig */;
@@ -548,82 +748,6 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_SWIFT_FLAGS = "-D INT";
 				PRODUCT_BUNDLE_IDENTIFIER = meow.int;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "5fbc5877-aba6-4f90-8acc-a0fddb724e07";
-				PROVISIONING_PROFILE_SPECIFIER = "iOS Wildcard In-House";
-				SWIFT_OBJC_BRIDGING_HEADER = "Meow/Meow-Bridging-Header.h";
-				SWIFT_VERSION = 3.0;
-			};
-			name = Release;
-		};
-		9B904F921EDFEA6F00E01EC0 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
-				DEVELOPMENT_TEAM = 5Z97G9NZQ6;
-				INFOPLIST_FILE = Meow/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				OTHER_SWIFT_FLAGS = "-D STAGING";
-				PRODUCT_BUNDLE_IDENTIFIER = meow.staging;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "5fbc5877-aba6-4f90-8acc-a0fddb724e07";
-				PROVISIONING_PROFILE_SPECIFIER = "iOS Wildcard In-House";
-				SWIFT_OBJC_BRIDGING_HEADER = "Meow/Meow-Bridging-Header.h";
-				SWIFT_VERSION = 3.0;
-			};
-			name = Debug;
-		};
-		9B904F931EDFEA6F00E01EC0 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
-				DEVELOPMENT_TEAM = 5Z97G9NZQ6;
-				INFOPLIST_FILE = Meow/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				OTHER_SWIFT_FLAGS = "-D STAGING";
-				PRODUCT_BUNDLE_IDENTIFIER = meow.staging;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "5fbc5877-aba6-4f90-8acc-a0fddb724e07";
-				PROVISIONING_PROFILE_SPECIFIER = "iOS Wildcard In-House";
-				SWIFT_OBJC_BRIDGING_HEADER = "Meow/Meow-Bridging-Header.h";
-				SWIFT_VERSION = 3.0;
-			};
-			name = Release;
-		};
-		9B904FA51EDFEAEC00E01EC0 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
-				DEVELOPMENT_TEAM = 5Z97G9NZQ6;
-				INFOPLIST_FILE = Meow/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				OTHER_SWIFT_FLAGS = "-D PROD";
-				PRODUCT_BUNDLE_IDENTIFIER = meow.prod;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "5fbc5877-aba6-4f90-8acc-a0fddb724e07";
-				PROVISIONING_PROFILE_SPECIFIER = "iOS Wildcard In-House";
-				SWIFT_OBJC_BRIDGING_HEADER = "Meow/Meow-Bridging-Header.h";
-				SWIFT_VERSION = 3.0;
-			};
-			name = Debug;
-		};
-		9B904FA61EDFEAEC00E01EC0 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
-				DEVELOPMENT_TEAM = 5Z97G9NZQ6;
-				INFOPLIST_FILE = Meow/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				OTHER_SWIFT_FLAGS = "-D PROD";
-				PRODUCT_BUNDLE_IDENTIFIER = meow.prod;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "5fbc5877-aba6-4f90-8acc-a0fddb724e07";
 				PROVISIONING_PROFILE_SPECIFIER = "iOS Wildcard In-House";
@@ -690,29 +814,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		9B3570981F71DD6B00049FCA /* Build configuration list for PBXNativeTarget "Meow-STAGING" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B3570991F71DD6B00049FCA /* Debug */,
+				9B35709A1F71DD6B00049FCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B3570AC1F71DDAE00049FCA /* Build configuration list for PBXNativeTarget "Meow-PROD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B3570AD1F71DDAE00049FCA /* Debug */,
+				9B3570AE1F71DDAE00049FCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		9B904F7E1EDFE9A600E01EC0 /* Build configuration list for PBXNativeTarget "Meow-INT" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9B904F7F1EDFE9A600E01EC0 /* Debug */,
 				9B904F801EDFE9A600E01EC0 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		9B904F911EDFEA6F00E01EC0 /* Build configuration list for PBXNativeTarget "Meow-STAGING" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				9B904F921EDFEA6F00E01EC0 /* Debug */,
-				9B904F931EDFEA6F00E01EC0 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		9B904FA41EDFEAEC00E01EC0 /* Build configuration list for PBXNativeTarget "Meow-PROD" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				9B904FA51EDFEAEC00E01EC0 /* Debug */,
-				9B904FA61EDFEAEC00E01EC0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
