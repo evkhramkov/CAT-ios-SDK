@@ -24,7 +24,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         self.stylizeButton(button: self.sendCrashButton, color: UIColor.alizarin(), shadowColor: UIColor.pomegranate())
-        self.stylizeButton(button: self.sendEventButton, color: UIColor.peterRiver(), shadowColor: UIColor.belizeHole())
+        self.stylizeButton(button: self.sendEventButton, color: UIColor.pumpkin(), shadowColor: UIColor.belizeHole())
         
         self.setVersionAndBuildLabels()
         self.setEnvLabel()
