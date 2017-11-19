@@ -6,7 +6,7 @@
 //  Copyright © 2017 Jessica Yeh. All rights reserved.
 //
 
-import MobileCenterAnalytics
+import AppCenterAnalytics
 import UIKit
 import FlatUIKit
 

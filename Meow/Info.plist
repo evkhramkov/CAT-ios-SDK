@@ -15,21 +15,21 @@
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.2</string>
+	<string>2.0</string>
 	<key>CFBundleURLTypes</key>
 	<array>
 		<dict>
 			<key>CFBundleURLSchemes</key>
 			<array>
-				<string>mobilecenter-5f46a336-bd46-4a2d-b14c-6a82b35dba16</string>
-				<string>mobilecenter-b22f463d-a561-405e-8579-161977402dd0</string>
-				<string>mobilecenter-b11966f5-0aa6-4d12-8b29-6da1c6cecf44</string>
-				<string>mobilecenter-45842f5c-b706-4ba8-8229-009ca0730b97</string>
+				<string>appcenter-5f46a336-bd46-4a2d-b14c-6a82b35dba16</string>
+				<string>appcenter-b22f463d-a561-405e-8579-161977402dd0</string>
+				<string>appcenter-b11966f5-0aa6-4d12-8b29-6da1c6cecf44</string>
+				<string>appcenter-45842f5c-b706-4ba8-8229-009ca0730b97</string>
 			</array>
 		</dict>
 	</array>
 	<key>CFBundleVersion</key>
-	<string>5</string>
+	<string>1</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>UILaunchStoryboardName</key>

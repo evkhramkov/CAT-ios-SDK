@@ -1,25 +1,25 @@
 PODS:
+  - AppCenter (1.0.0):
+    - AppCenter/Analytics (= 1.0.0)
+    - AppCenter/Crashes (= 1.0.0)
+  - AppCenter/Analytics (1.0.0):
+    - AppCenter/Core
+  - AppCenter/Core (1.0.0)
+  - AppCenter/Crashes (1.0.0):
+    - AppCenter/Core
+  - AppCenter/Distribute (1.0.0):
+    - AppCenter/Core
   - FlatUIKit (1.6.2)
-  - MobileCenter (0.12.1):
-    - MobileCenter/Analytics (= 0.12.1)
-    - MobileCenter/Crashes (= 0.12.1)
-  - MobileCenter/Analytics (0.12.1):
-    - MobileCenter/Core
-  - MobileCenter/Core (0.12.1)
-  - MobileCenter/Crashes (0.12.1):
-    - MobileCenter/Core
-  - MobileCenter/Distribute (0.12.1):
-    - MobileCenter/Core
 
 DEPENDENCIES:
+  - AppCenter
+  - AppCenter/Distribute
   - FlatUIKit
-  - MobileCenter
-  - MobileCenter/Distribute
 
 SPEC CHECKSUMS:
+  AppCenter: 6420fff6632a6e728dff657c94346289b7868195
   FlatUIKit: 1b41f0d4952ce8d970d8479ce79df54a960242c4
-  MobileCenter: 95f224fd050d7d6ed861d943b1bf9b960885ddb9
 
-PODFILE CHECKSUM: bf89afefd4d20e9f3bb74d125d28dd3d4d1ca375
+PODFILE CHECKSUM: 8dc86f89ccb8f8036d29f977a4f34ac9065d42ce
 
 COCOAPODS: 1.1.1

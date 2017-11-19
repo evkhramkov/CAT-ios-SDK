@@ -7,10 +7,10 @@
 //
 
 import UIKit
-import MobileCenter
-import MobileCenterDistribute
-import MobileCenterCrashes
-import MobileCenterAnalytics
+import AppCenter
+import AppCenterDistribute
+import AppCenterCrashes
+import AppCenterAnalytics
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -26,34 +26,27 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         #if INT
             MSDistribute.setInstallUrl(Constants.intInstallUrl)
             MSDistribute.setApiUrl(Constants.intApiUrl)
-            MSMobileCenter.setLogUrl("https://in-integration.dev.avalanch.es")
+            MSAppCenter.setLogUrl("https://in-integration.dev.avalanch.es")
             appSecret = Constants.intAppSecret
         #endif
         #if ACCESSIBILITYINT
             MSDistribute.setInstallUrl(Constants.intInstallUrl)
             MSDistribute.setApiUrl(Constants.intApiUrl)
-            MSMobileCenter.setLogUrl("https://in-integration.dev.avalanch.es")
+            MSAppCenter.setLogUrl("https://in-integration.dev.avalanch.es")
             appSecret = Constants.accessibilityIntAppSecret
         #endif
         #if STAGING
             MSDistribute.setInstallUrl(Constants.stagingInstallUrl)
             MSDistribute.setApiUrl(Constants.stagingApiUrl)
-            MSMobileCenter.setLogUrl("https://in-staging-south-centralus.staging.avalanch.es")
+            MSAppCenter.setLogUrl("https://in-staging-south-centralus.staging.avalanch.es")
             appSecret = Constants.stagingAppSecret
         #endif
         #if PROD
             appSecret = Constants.prodAppSecret
         #endif
         
-        MSMobileCenter.start(appSecret, withServices: [MSDistribute.self, MSCrashes.self, MSAnalytics.self])
+        MSAppCenter.start(appSecret, withServices: [MSDistribute.self, MSCrashes.self, MSAnalytics.self])
         
-        return true
-    }
-    
-    func application(_ application: UIApplication, open url: URL, sourceApplication: String?, annotation: Any) -> Bool {
-        
-        // Pass the URL to MSDistribute.
-        MSDistribute.open(url as URL!)
         return true
     }
 
