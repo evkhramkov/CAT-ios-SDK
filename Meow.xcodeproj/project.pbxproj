@@ -239,19 +239,19 @@
 				TargetAttributes = {
 					9B725C301FBCCC4F00526B15 = {
 						DevelopmentTeam = 83U7U2U9D6;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 					9B904F701EDFE9A600E01EC0 = {
 						DevelopmentTeam = 83U7U2U9D6;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 					9BBF747E1FBF720000761529 = {
 						DevelopmentTeam = 83U7U2U9D6;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 					9BBF74911FBF72A700761529 = {
 						DevelopmentTeam = 83U7U2U9D6;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -663,8 +663,8 @@
 			baseConfigurationReference = FBAB80BDAD379C01B84CC207 /* Pods-Meow-INT.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 83U7U2U9D6;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -677,8 +677,8 @@
 				OTHER_SWIFT_FLAGS = "-D PROD";
 				PRODUCT_BUNDLE_IDENTIFIER = meow.prod;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE = "283381b7-b65f-4abd-98c1-11c9cc3809ae";
+				PROVISIONING_PROFILE_SPECIFIER = "iPhone X 2";
 				SWIFT_OBJC_BRIDGING_HEADER = "Meow/Meow-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
@@ -689,8 +689,8 @@
 			baseConfigurationReference = 6948F4E8007BED3ECEB5C212 /* Pods-Meow-INT.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 83U7U2U9D6;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -703,8 +703,8 @@
 				OTHER_SWIFT_FLAGS = "-D PROD";
 				PRODUCT_BUNDLE_IDENTIFIER = meow.prod;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE = "283381b7-b65f-4abd-98c1-11c9cc3809ae";
+				PROVISIONING_PROFILE_SPECIFIER = "iPhone X 2";
 				SWIFT_OBJC_BRIDGING_HEADER = "Meow/Meow-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
@@ -715,8 +715,8 @@
 			baseConfigurationReference = FBAB80BDAD379C01B84CC207 /* Pods-Meow-INT.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 83U7U2U9D6;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -729,8 +729,8 @@
 				OTHER_SWIFT_FLAGS = "-D INT";
 				PRODUCT_BUNDLE_IDENTIFIER = meow.int;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE = "283381b7-b65f-4abd-98c1-11c9cc3809ae";
+				PROVISIONING_PROFILE_SPECIFIER = "iPhone X 2";
 				SWIFT_OBJC_BRIDGING_HEADER = "Meow/Meow-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
@@ -741,8 +741,8 @@
 			baseConfigurationReference = 6948F4E8007BED3ECEB5C212 /* Pods-Meow-INT.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 83U7U2U9D6;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -755,8 +755,8 @@
 				OTHER_SWIFT_FLAGS = "-D INT";
 				PRODUCT_BUNDLE_IDENTIFIER = meow.int;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE = "283381b7-b65f-4abd-98c1-11c9cc3809ae";
+				PROVISIONING_PROFILE_SPECIFIER = "iPhone X 2";
 				SWIFT_OBJC_BRIDGING_HEADER = "Meow/Meow-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
@@ -767,8 +767,8 @@
 			baseConfigurationReference = FBAB80BDAD379C01B84CC207 /* Pods-Meow-INT.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 83U7U2U9D6;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -781,8 +781,8 @@
 				OTHER_SWIFT_FLAGS = "-D STAGING";
 				PRODUCT_BUNDLE_IDENTIFIER = meow.staging;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE = "283381b7-b65f-4abd-98c1-11c9cc3809ae";
+				PROVISIONING_PROFILE_SPECIFIER = "iPhone X 2";
 				SWIFT_OBJC_BRIDGING_HEADER = "Meow/Meow-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
@@ -793,8 +793,8 @@
 			baseConfigurationReference = 6948F4E8007BED3ECEB5C212 /* Pods-Meow-INT.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 83U7U2U9D6;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -807,8 +807,8 @@
 				OTHER_SWIFT_FLAGS = "-D STAGING";
 				PRODUCT_BUNDLE_IDENTIFIER = meow.staging;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE = "283381b7-b65f-4abd-98c1-11c9cc3809ae";
+				PROVISIONING_PROFILE_SPECIFIER = "iPhone X 2";
 				SWIFT_OBJC_BRIDGING_HEADER = "Meow/Meow-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
@@ -819,8 +819,8 @@
 			baseConfigurationReference = FBAB80BDAD379C01B84CC207 /* Pods-Meow-INT.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 83U7U2U9D6;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -833,8 +833,8 @@
 				OTHER_SWIFT_FLAGS = "-D ACCESSIBILITYINT";
 				PRODUCT_BUNDLE_IDENTIFIER = "meow.int-accessibility";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE = "283381b7-b65f-4abd-98c1-11c9cc3809ae";
+				PROVISIONING_PROFILE_SPECIFIER = "iPhone X 2";
 				SWIFT_OBJC_BRIDGING_HEADER = "Meow/Meow-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
@@ -845,8 +845,8 @@
 			baseConfigurationReference = 6948F4E8007BED3ECEB5C212 /* Pods-Meow-INT.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 83U7U2U9D6;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -859,8 +859,8 @@
 				OTHER_SWIFT_FLAGS = "-D ACCESSIBILITYINT";
 				PRODUCT_BUNDLE_IDENTIFIER = "meow.int-accessibility";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE = "283381b7-b65f-4abd-98c1-11c9cc3809ae";
+				PROVISIONING_PROFILE_SPECIFIER = "iPhone X 2";
 				SWIFT_OBJC_BRIDGING_HEADER = "Meow/Meow-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
