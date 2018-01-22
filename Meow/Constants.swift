@@ -11,7 +11,7 @@ import Foundation
 class Constants {
     static let intInstallUrl = "https://install.appcenter-int.trafficmanager.net"
     static let intApiUrl = "https://appcenter-int.trafficmanager.net/api/v0.1"
-    static let intAppSecret = "b22f463d-a561-405e-8579-161977402dd0"
+    static let intAppSecret = "7d27ea5a-05ad-47c0-baca-8bff0a98f3d1"
     static let accessibilityIntAppSecret = "5f46a336-bd46-4a2d-b14c-6a82b35dba16"
     
     static let stagingInstallUrl = "https://install.appcenter-staging.trafficmanager.net"

@@ -242,7 +242,7 @@
 						ProvisioningStyle = Automatic;
 					};
 					9B904F701EDFE9A600E01EC0 = {
-						DevelopmentTeam = 83U7U2U9D6;
+						DevelopmentTeam = R2L8TU8NEV;
 						ProvisioningStyle = Automatic;
 					};
 					9BBF747E1FBF720000761529 = {
@@ -717,7 +717,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 83U7U2U9D6;
+				DEVELOPMENT_TEAM = R2L8TU8NEV;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/iOS",
@@ -743,7 +743,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 83U7U2U9D6;
+				DEVELOPMENT_TEAM = R2L8TU8NEV;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/iOS",
